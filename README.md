@@ -22,21 +22,21 @@ To get started and check the PageSpeed, check out the repository or you can run 
 
 ####Part 1: Optimized PageSpeed Insights score for index.html
 
-Google font was too heavy, so it was removed -->
-Inlined css file -->
-CSS media call print was added
-Reduced image size for pizzeria2.jpg
+Google font was too heavy, so it was removed <br>
+Inlined css file <br>
+CSS media call print was added <br>
+Reduced image size for pizzeria2.jpg<br>
 Minified both CSS files
 
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-For Pizza.html
-Optimized CSS by inlining critical CSS as follows and minifying the files
-https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery#example
+For Pizza.html<br>
+Optimized CSS by inlining critical CSS as follows and minifying the files<br>
+https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery#example <br>
 Minified the CSS and JS files
 
-For main.js
+For main.js<br>
 optimized JS by takig the variables outside of the for-loops( lines 452, 506) therefore reducing the amount of times we redefined the variables, resulting in less FPS
 
 ### Customization with Bootstrap
